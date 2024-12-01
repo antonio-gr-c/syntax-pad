@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Menu from "@/components/Menu.vue";
+import Menu from "../components/menu.vue";
 import axios from "axios";
 import EditorJS from "@editorjs/editorjs";
 import Header from "@editorjs/header";

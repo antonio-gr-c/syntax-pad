@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import Menu from "@/components/Menu.vue";
+import Menu from "../components/menu.vue";
 import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
 import axios from "axios";
