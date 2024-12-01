@@ -5,7 +5,7 @@
 
     <!-- Banner -->
     <div class="banner" :style="{ backgroundImage: 'url(' + bannerImage + ')' }">
-      <h1 class="banner-text">Tareas Pendientes</h1>
+      <h1 class="banner-text">Tareas </h1>
     </div>
 
     <!-- TO DO List -->
@@ -243,6 +243,7 @@ export default {
           id_usuario: id_usuario,
         })
         .then((response) => {
+          this.CargarPendientes();
           // Agregar la tarea localmente con los datos recibidos
           this.tasks.push({
             id_pendiente: response.data.pendienteId,
